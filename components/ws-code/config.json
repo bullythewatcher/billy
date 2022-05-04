@@ -1,0 +1,1 @@
+{"port":5010,"webhook":{"enabled":true,"path":"http:\/\/localhost:8081\/btw\/api\/ws-code\/receive"}}

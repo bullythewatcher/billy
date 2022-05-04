@@ -1,0 +1,4 @@
+pm2 start index.js --name "chat-bot" --watch
+pm2 start index.js --name "chat-bot-all" --restart-delay=3000
+pm2 start consumer.js --name "rabbitmq"
+pm2 start api.js --name "ws-code"

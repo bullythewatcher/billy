@@ -1,0 +1,27 @@
+# chat-bot
+*/5 * * * * curl https://bullythewatcher.com/btw/api/config/chat-bot
+
+# chat-bot-all
+*/5 * * * * curl https://bullythewatcher.com/btw/api/config/chat-bot-all
+
+# msg-process
+* * * * * curl https://bullythewatcher.com/btw/api/chat-bot/msg-process
+
+# token-update
+*/55 * * * * curl https://bullythewatcher.com/btw/api/twitch/token-update
+
+# token-update
+*/55 * * * * curl https://bullythewatcher.com/btw/api/twitch/token-update
+
+# report-create
+*/2 * * * * curl https://bullythewatcher.com/btw/api/report/create
+
+# report-messages
+*/3 * * * * curl https://bullythewatcher.com/btw/api/report/messages
+
+# report-show
+*/4 * * * * curl https://bullythewatcher.com/btw/api/report/show
+
+# report-send
+*/5 * * * * curl https://bullythewatcher.com/btw/api/report/send
+

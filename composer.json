@@ -1,0 +1,19 @@
+{
+    "require": {
+        "google/cloud": "^0.175.0",
+        "slim/slim": "~3.0",
+        "rmccue/requests": "^1.8",
+        "gerardojbaez/money": "^0.3.1",
+        "doctrine/dbal": "^3.1",
+        "stajor/perspectiveapi": "^1.2",
+        "endroid/qr-code": "^4.4",
+        "symfony/uid": "^6.0",
+        "google/apiclient": "^2.12",
+        "nicklaw5/twitch-api-php": "^6.1",
+        "ghostzero/tmi": "^2.3",
+        "php-amqplib/php-amqplib": "^3.2",
+        "tecnickcom/tc-lib-pdf": "^8.0",
+        "dompdf/dompdf": "^1.2",
+        "spatie/browsershot": "^3.52"
+    }
+}
